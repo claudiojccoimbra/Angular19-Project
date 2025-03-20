@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: angular-deployment
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: angular
+  template:
+    metadata:
+      labels:
+        app: angular
+    spec:
+      containers:
+      - name: angular
+        image: angular19-project:latest
+        ports:
+        - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /          # ou /health, se sua aplicação oferecer esse endpoint
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /          # ou /health, se você configurar esse endpoint
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
