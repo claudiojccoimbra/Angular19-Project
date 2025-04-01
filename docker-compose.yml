@@ -1,0 +1,9 @@
+version: '3'
+services:
+  angular-app:
+    container_name: angular-app-volume
+    image: angular19-project-volume:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - "C:/Users/Jones/Desktop/Angular19-Project/logs:/var/log/nginx"
