@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://seu-repositorio.git'
+        git 'https://github.com/claudiojccoimbra/Angular19-Project'
       }
     }
     stage('Build') {
