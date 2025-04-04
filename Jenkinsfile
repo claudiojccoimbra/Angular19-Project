@@ -3,7 +3,7 @@ pipeline {
         docker {
             image 'claudiojones/node-docker:latest'
             args '-v /var/run/docker.sock:/var/run/docker.sock'
-	    alwaysPullImage true
+	    alwaysPull true
         }
     }
     environment {
@@ -29,7 +29,7 @@ pipeline {
         stage('Docker Build & Push') {
             steps {
                 script {
-                    sh 'docker build -t seuusuario/angular19-project:latest .'
+                    sh 'docker build -t claudiojones/angular19-project:latest .'
                     sh 'docker login -u $DOCKER_HUB_CREDENTIALS_USR -p $DOCKER_HUB_CREDENTIALS_PSW'
                     sh 'docker push seuusuario/angular19-project:latest'
                 }
