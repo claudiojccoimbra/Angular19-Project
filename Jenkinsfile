@@ -10,6 +10,13 @@ pipeline {
         DOCKER_HUB_CREDENTIALS = credentials('docker-hub-id')
     }
     stages {
+	stage('Debug Environment') {
+    		steps {
+        		sh 'echo "PATH = $PATH"'
+        		sh 'which docker || echo "docker not found"'
+        		sh 'docker --version || echo "docker --version failed"'
+    		}
+	}
         stage('Checkout') {
             steps {
                 git 'https://github.com/claudiojccoimbra/Angular19-Project'
