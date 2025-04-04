@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:14'
+            image 'claudiojones/node-docker:latest'
             args '-v /var/run/docker.sock:/var/run/docker.sock'
         }
     }
@@ -16,14 +16,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                // Executar os comandos de build da aplicação Angular
                 sh 'npm install'
                 sh 'npm run build'
             }
         }
         stage('Test') {
             steps {
-                // Executar os testes
                 sh 'npm test'
             }
         }
@@ -38,7 +36,6 @@ pipeline {
         }
         stage('Deploy no Kubernetes') {
             steps {
-                // Aplicar os manifests do Kubernetes utilizando a credencial kubeconfig
                 withCredentials([file(credentialsId: 'kubeconfig-id', variable: 'KUBECONFIG')]) {
                     sh 'kubectl apply -f deployment.yaml'
                     sh 'kubectl apply -f service.yaml'
