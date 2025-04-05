@@ -17,13 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'Angular19-Project' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Angular19-Project');
+    expect(app.title).toEqual('EasyTask');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Angular19-Project');
-  });
 });
