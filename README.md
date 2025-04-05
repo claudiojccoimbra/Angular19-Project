@@ -7,21 +7,22 @@ O **Angular19-Project** é uma aplicação Angular preparada para entrega contí
 
 ## 🧭 Sumário
 
-- [📌 Visão Geral](<#📌-vis%C3%A3o-geral>)
-- [🧰 Tecnologias Utilizadas](<#🧰-tecnologias-utilizadas>)
-- [✅ Pré-requisitos](<#✅-pr%C3%A9-requisitos>)
-- [📁 Estrutura do Projeto](<#📁-estrutura-do-projeto>)
-- [☸️ Configuração do Ambiente](<#☸️-configura%C3%A7%C3%A3o-do-ambiente>)
-- [🐳 Docker e Imagens](<#🐳-docker-e-imagens>)
-- [☸️ Kubernetes](<#☸️-kubernetes>)
-- [⚙️ Jenkins e Pipeline](<#⚙️-jenkins-e-pipeline>)
-- [✅ Testes Automatizados](<#✅-testes-automatizados>)
-- [📊 Monitoramento com Prometheus e Grafana](<#📊-monitoramento-com-prometheus-e-grafana>)
-- [🚀 Como Executar](<#🚀-como-executar>)
-- [🧯 Resolução de Problemas](<#🧯-resolu%C3%A7%C3%A3o-de-problemas>)
-- [📄 Licença](<#📄-licen%C3%A7a>)
-- [🔄 Atividades Adicionais Realizadas](<#🔄-atividades-adicionais-realizadas>)
-- [📸 Visuais do Projeto](<#📸-visuais-do-projeto>)
+- [📌 Visão Geral](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-vis%C3%A3o-geral)
+- [🧰 Tecnologias Utilizadas](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-tecnologias-utilizadas)
+- [✅ Pré-requisitos](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-pr%C3%A9-requisitos)
+- [📁 Estrutura do Projeto](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-estrutura-do-projeto)
+- [☸️ Configuração do Ambiente](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-configura%C3%A7%C3%A3o-do-ambiente)
+- [🐳 Docker e Imagens](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-docker-e-imagens)
+- [☸️ Kubernetes](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-kubernetes)
+- [⚙️ Jenkins e Pipeline](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-jenkins-e-pipeline)
+- [✅ Testes Automatizados](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-testes-automatizados)
+- [📊 Monitoramento com Prometheus e Grafana](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-monitoramento-com-prometheus-e-grafana)
+- [🚀 Como Executar](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-como-executar)
+- [🧯 Resolução de Problemas](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-resolu%C3%A7%C3%A3o-de-problemas)
+- [📄 Licença](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-licen%C3%A7a)
+- [🔄 Atividades Adicionais Realizadas](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-atividades-adicionais-realizadas)
+- [📸 Visuais do Projeto](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-visuais-do-projeto)
+
 
 
 ---
