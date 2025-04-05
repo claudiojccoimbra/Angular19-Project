@@ -7,21 +7,21 @@ O **Angular19-Project** é uma aplicação Angular preparada para entrega contí
 
 ## 🧭 Sumário
 
-- [Visão Geral](#visão-geral)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pré-requisitos](#pré-requisitos)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Configuração do Ambiente](#configuração-do-ambiente)
-- [Docker e Imagens](#docker-e-imagens)
-- [Kubernetes](#kubernetes)
-- [Jenkins e Pipeline](#jenkins-e-pipeline)
-- [Testes Automatizados](#testes-automatizados)
-- [Monitoramento com Prometheus e Grafana](#monitoramento-com-prometheus-e-grafana)
-- [Como Executar](#como-executar)
-- [Resolução de Problemas](#resolução-de-problemas)
-- [Licença](#licenca)
-- [Atividades Adicionais Realizadas](#atividades-adicionais-realizadas)
-- [Visuais do Projeto](#visuais-do-projeto)
+- [📌 Visão Geral](<#📌-vis%C3%A3o-geral>)
+- [🧰 Tecnologias Utilizadas](<#🧰-tecnologias-utilizadas>)
+- [✅ Pré-requisitos](<#✅-pr%C3%A9-requisitos>)
+- [📁 Estrutura do Projeto](<#📁-estrutura-do-projeto>)
+- [☸️ Configuração do Ambiente](<#☸️-configura%C3%A7%C3%A3o-do-ambiente>)
+- [🐳 Docker e Imagens](<#🐳-docker-e-imagens>)
+- [☸️ Kubernetes](<#☸️-kubernetes>)
+- [⚙️ Jenkins e Pipeline](<#⚙️-jenkins-e-pipeline>)
+- [✅ Testes Automatizados](<#✅-testes-automatizados>)
+- [📊 Monitoramento com Prometheus e Grafana](<#📊-monitoramento-com-prometheus-e-grafana>)
+- [🚀 Como Executar](<#🚀-como-executar>)
+- [🧯 Resolução de Problemas](<#🧯-resolu%C3%A7%C3%A3o-de-problemas>)
+- [📄 Licença](<#📄-licen%C3%A7a>)
+- [🔄 Atividades Adicionais Realizadas](<#🔄-atividades-adicionais-realizadas>)
+- [📸 Visuais do Projeto](<#📸-visuais-do-projeto>)
 
 
 ---
