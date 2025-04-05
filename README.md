@@ -278,25 +278,25 @@ docker ps
 ## 📸 Visuais do Projeto
 
 ### Aplicação Angular em Execução
-![Aplicação Angular](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/app.png?raw=true)
+![Aplicação Angular](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/App.png?raw=true)
 
 ### Containers Ativos no Docker
-![Containers Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_containers.png?raw=true)
+![Containers Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Docker_containers.png?raw=true)
 
 ### Imagens Docker Local
-![Imagens Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_images.png?raw=true)
+![Imagens Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Docker_images.png?raw=true)
 
 ### Volumes Docker
-![Volumes Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_volumes.png?raw=true)
+![Volumes Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Docker_volumes.png?raw=true)
 
 ### Jenkins Pipeline em Execução
-![Jenkins Pipeline](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/jenkins.png?raw=true)
+![Jenkins Pipeline](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Jenkins.png?raw=true)
 
 ### Stress Test Finalizado - k6 + InfluxDB + Grafana
-![Resultado Final Stress Test](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/stress_test_finish.png?raw=true)
+![Resultado Final Stress Test](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Stress_test_finish.png?raw=true)
 
 ### Stress Test em Tempo Real - k6 + InfluxDB + Grafana
-![Stress Test Live](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/stress_test_live.png?raw=true)
+![Stress Test Live](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Stress_test_live.png?raw=true)
 
 ### Visualização do docker ps com Containers Ativos
-![docker ps](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_ps.png?raw=true)
+![docker ps](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Docker_ps.png?raw=true)
