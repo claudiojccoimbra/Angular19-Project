@@ -31,7 +31,7 @@ Este projeto demonstra um fluxo de trabalho DevOps moderno, desde o desenvolvime
 
 ## 🧰 Tecnologias Utilizadas
 
-- **Angular** 14+
+- **Angular** 19+
 - **Docker** e **Docker Compose**
 - **Kubernetes** (via Docker Desktop)
 - **Jenkins** (com imagens customizadas de agentes e master)
@@ -78,7 +78,7 @@ angular19-project/
 - Build é realizado via `ng build`, empacotado via `Dockerfile`.
 
 ```dockerfile
-# Exemplo do Dockerfile
+#Dockerfile
 FROM nginx:alpine
 COPY dist/angular19-project /usr/share/nginx/html
 ```
@@ -149,7 +149,7 @@ Pipeline automatizado com as seguintes etapas:
 
 O projeto utiliza **Karma** com **Chrome Headless via Puppeteer**.
 
-Exemplo de configuração no `karma.conf.js`:
+configuração no `karma.conf.js`:
 
 ```js
 process.env.CHROME_BIN = require('puppeteer').executablePath();
@@ -278,25 +278,25 @@ docker ps
 ## 📸 Visuais do Projeto
 
 ### Aplicação Angular em Execução
-![Aplicação Angular](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/app.png)
+![Aplicação Angular](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/app.png?raw=true)
 
 ### Containers Ativos no Docker
-![Containers Docker](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_containers.png)
+![Containers Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_containers.png?raw=true)
 
 ### Imagens Docker Local
-![Imagens Docker](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_images.png)
+![Imagens Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_images.png?raw=true)
 
 ### Volumes Docker
-![Volumes Docker](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_volumes.png)
+![Volumes Docker](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_volumes.png?raw=true)
 
 ### Jenkins Pipeline em Execução
-![Jenkins Pipeline](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/jenkins.png)
+![Jenkins Pipeline](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/jenkins.png?raw=true)
 
 ### Stress Test Finalizado - k6 + InfluxDB + Grafana
-![Resultado Final Stress Test](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/stress_test_finish.png)
+![Resultado Final Stress Test](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/stress_test_finish.png?raw=true)
 
 ### Stress Test em Tempo Real - k6 + InfluxDB + Grafana
-![Stress Test Live](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/stress_test_live.png)
+![Stress Test Live](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/stress_test_live.png?raw=true)
 
 ### Visualização do docker ps com Containers Ativos
-![docker ps](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_ps.png)
+![docker ps](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/docker_ps.png?raw=true)
