@@ -33,7 +33,7 @@ pipeline {
                 script {
                     sh 'docker build -t claudiojones/angular19-project:latest .'
                     sh 'docker login -u $DOCKER_HUB_CREDENTIALS_USR -p $DOCKER_HUB_CREDENTIALS_PSW'
-                    sh 'docker push seuusuario/angular19-project:latest'
+                    sh 'docker push claudiojones/angular19-project:latest'
                 }
             }
         }
