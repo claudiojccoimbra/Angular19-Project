@@ -1,4 +1,4 @@
-// Define o caminho do Chrome usando Puppeteer 
+// karma.conf.js
 process.env.CHROME_BIN = require('puppeteer').executablePath();
 
 module.exports = function (config) {
@@ -13,13 +13,10 @@ module.exports = function (config) {
       require('@angular-devkit/build-angular/plugins/karma')
     ],
     client: {
-      jasmine: {
-        // Configurações do Jasmine (opcional)
-      },
-      clearContext: false // Deixa a saída do Spec Runner visível no navegador
+      clearContext: false
     },
     jasmineHtmlReporter: {
-      suppressAll: true // Remove rastreamentos duplicados
+      suppressAll: true
     },
     coverageReporter: {
       dir: require('path').join(__dirname, './coverage/angular19-project'),
