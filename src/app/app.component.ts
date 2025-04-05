@@ -14,6 +14,9 @@ import { TasksComponent } from './tasks/tasks.component';
 })
 
 export class AppComponent {
+
+  title = 'Angular19-Project';
+
   users = DUMMY_USERS;
   selectedUserId?: string;
 
