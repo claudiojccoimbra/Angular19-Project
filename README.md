@@ -220,3 +220,83 @@ Acesse via: [http://localhost:30001](http://localhost:30001)
 ## 📄 Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+
+---
+
+## 🔄 Atividades Adicionais Realizadas
+
+### Docker e Imagem da Aplicação Angular
+
+- Criamos uma imagem Docker para a aplicação Angular utilizando NGINX para servir os arquivos.
+- Re-taggeamos a imagem e alteramos o nome do container via Docker Compose.
+- Utilizamos **bind mounts** para mapear o diretório de logs do host no container.
+
+### Containers Ativos
+
+```bash
+docker ps
+```
+
+- Jenkins Master: `claudiojones/jenkins-custom:lts` em `localhost:8081`
+- Angular App via Compose: `angular19-project-volume:latest` em `localhost:8080`
+- Angular App via Kubernetes: 4 réplicas ativas
+- Prometheus: rodando como pod Kubernetes
+- Grafana: rodando como pod Kubernetes em `localhost:30003`
+- InfluxDB: container local `influxdb:1.8` em `localhost:8086`
+
+### Deploy no Kubernetes
+
+- Deployment com 4 réplicas da aplicação Angular para garantir alta disponibilidade.
+- Services criados para expor a aplicação (NodePort), Prometheus e Grafana.
+- Readiness e Liveness Probes configurados nos pods Angular.
+- PVC configurado para Prometheus (armazenamento persistente de métricas).
+
+### Testes de Stress com k6
+
+- Script de teste criado com **stages** ajustando número de usuários e tempo de execução.
+- Utilização do Docker para executar o **k6** montando diretório local com script de teste.
+- Problemas de conexão resolvidos usando `host.docker.internal`.
+
+### Integração com InfluxDB e Grafana
+
+- InfluxDB 1.8 instalado via Docker (necessário para o output do k6).
+- k6 configurado para enviar métricas para o InfluxDB.
+- Grafana conectado ao InfluxDB com sucesso:
+  - Mensagem “datasource is working. 16 measurements found”
+  - Criação de dashboards sugerida com uso de InfluxQL.
+
+### Testes e Monitoramento
+
+- Todas as requisições do teste de carga foram concluídas com sucesso.
+- Métricas armazenadas corretamente no InfluxDB.
+- Utilização do **Query Inspector** do Grafana para debug e verificação de consultas.
+
+---
+
+---
+
+## 📸 Visuais do Projeto
+
+### Aplicação Angular em Execução
+![Aplicação Angular](docs/images/app.png)
+
+### Containers Ativos no Docker
+![Containers Docker](docs/images/docker_containers.png)
+
+### Imagens Docker Local
+![Imagens Docker](docs/images/docker_images.png)
+
+### Volumes Docker
+![Volumes Docker](docs/images/docker_volumes.png)
+
+### Jenkins Pipeline em Execução
+![Jenkins Pipeline](docs/images/jenkins.png)
+
+### Stress Test Finalizado - k6 + InfluxDB + Grafana
+![Resultado Final Stress Test](docs/images/stress_test_finish.png)
+
+### Stress Test em Tempo Real - k6 + InfluxDB + Grafana
+![Stress Test Live](docs/images/stress_test_live.png)
+
+### Visualização do docker ps com Containers Ativos
+![docker ps](docs/images/docker_ps.png)
