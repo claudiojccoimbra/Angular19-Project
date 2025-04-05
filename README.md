@@ -292,11 +292,11 @@ docker ps
 ### Jenkins Pipeline em Execução
 ![Jenkins Pipeline](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Jenkins.png?raw=true)
 
-### Stress Test Finalizado - k6 + InfluxDB + Grafana
-![Resultado Final Stress Test](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Stress_test_finish.png?raw=true)
-
 ### Stress Test em Tempo Real - k6 + InfluxDB + Grafana
-![Stress Test Live](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Stress_test_live.png?raw=true)
+![Stress Test Live](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Stress_test_k6_influxDb_grafana.png?raw=true)
+
+### Stress Test Finalizado - k6 + InfluxDB + Grafana
+![Resultado Final Stress Test](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Stress_test_finish_k6_influxDb_grafana_dockerImages.png?raw=true)
 
 ### Visualização do docker ps com Containers Ativos
-![docker ps](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Docker_ps.png?raw=true)
+![docker ps](https://github.com/claudiojccoimbra/Angular19-Project/blob/master/docs/images/Powershell_docker_ps.png?raw=true)
