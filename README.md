@@ -278,25 +278,25 @@ docker ps
 ## 📸 Visuais do Projeto
 
 ### Aplicação Angular em Execução
-![Aplicação Angular](docs/images/app.png)
+![Aplicação Angular](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/app.png)
 
 ### Containers Ativos no Docker
-![Containers Docker](docs/images/docker_containers.png)
+![Containers Docker](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_containers.png)
 
 ### Imagens Docker Local
-![Imagens Docker](docs/images/docker_images.png)
+![Imagens Docker](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_images.png)
 
 ### Volumes Docker
-![Volumes Docker](docs/images/docker_volumes.png)
+![Volumes Docker](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_volumes.png)
 
 ### Jenkins Pipeline em Execução
-![Jenkins Pipeline](docs/images/jenkins.png)
+![Jenkins Pipeline](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/jenkins.png)
 
 ### Stress Test Finalizado - k6 + InfluxDB + Grafana
-![Resultado Final Stress Test](docs/images/stress_test_finish.png)
+![Resultado Final Stress Test](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/stress_test_finish.png)
 
 ### Stress Test em Tempo Real - k6 + InfluxDB + Grafana
-![Stress Test Live](docs/images/stress_test_live.png)
+![Stress Test Live](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/stress_test_live.png)
 
 ### Visualização do docker ps com Containers Ativos
-![docker ps](docs/images/docker_ps.png)
+![docker ps](https://raw.githubusercontent.com/claudiojccoimbra/Angular19-Project/master/docs/images/docker_ps.png)
