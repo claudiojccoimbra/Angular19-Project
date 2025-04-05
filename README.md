@@ -19,7 +19,10 @@ O **Angular19-Project** é uma aplicação Angular preparada para entrega contí
 - [Monitoramento com Prometheus e Grafana](#monitoramento-com-prometheus-e-grafana)
 - [Como Executar](#como-executar)
 - [Resolução de Problemas](#resolução-de-problemas)
-- [Licença](#licença)
+- [Licença](#licenca)
+- [Atividades Adicionais Realizadas](#atividades-adicionais-realizadas)
+- [Visuais do Projeto](#visuais-do-projeto)
+
 
 ---
 
