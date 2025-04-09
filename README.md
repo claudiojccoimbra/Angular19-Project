@@ -18,8 +18,6 @@ O **Angular19-Project** é uma aplicação Angular preparada para entrega contí
 - [✅ Testes Automatizados](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-testes-automatizados)
 - [📊 Monitoramento com Prometheus e Grafana](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-monitoramento-com-prometheus-e-grafana)
 - [🚀 Como Executar](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-como-executar)
-- [🧯 Resolução de Problemas](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-resolu%C3%A7%C3%A3o-de-problemas)
-- [📄 Licença](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-licen%C3%A7a)
 - [🔄 Atividades Adicionais Realizadas](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-atividades-adicionais-realizadas)
 - [📸 Visuais do Projeto](https://github.com/claudiojccoimbra/Angular19-Project/tree/master?tab=readme-ov-file#-visuais-do-projeto)
 
@@ -210,20 +208,6 @@ kubectl get services
 ```
 
 Acesse via: [http://localhost:30001](http://localhost:30001)
-
----
-
-## 🧯 Resolução de Problemas
-
-- Verifique os logs do Jenkins se o pipeline falhar
-- Use `kubectl describe pod <nome>` para diagnosticar falhas
-- Acesse os logs do NGINX via volume mapeado em `docker-compose`
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
