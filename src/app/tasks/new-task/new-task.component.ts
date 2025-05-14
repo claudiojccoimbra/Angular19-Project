@@ -20,7 +20,6 @@ export class NewTaskComponent {
 
   private tasksService = inject(TasksService);
 
-
   onCancel() {
     this.close.emit();
   }
